@@ -1,4 +1,4 @@
-const API_KEY = "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"
+const API_KEY = //escribe tu OpenAI_key,
 
 async function getCompletion(prompt) {
     const res = await fetch("https://api.openai.com/v1/chat/completions", {
